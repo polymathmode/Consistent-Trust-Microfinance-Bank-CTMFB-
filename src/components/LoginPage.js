@@ -109,10 +109,19 @@ const styles = StyleSheet.create({
   cancelButton: {
     alignSelf: 'flex-start',
     marginTop: 20,
+    padding:8,
+
+
+    
   },
   cancelText: {
     color: 'green',
     fontSize: 16,
+    borderWidth:1,
+    borderColor: '#ccc',
+    padding:5,
+    borderRadius:5
+
   },
   title: {
     fontSize: 24,

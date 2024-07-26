@@ -173,11 +173,18 @@ const styles = StyleSheet.create({
     iconBackgroundAirtime: {
         backgroundColor: '#DDEDF4',
     },
-    balanceSectionText: {
+
+    balanceAmount:{
         color: '#5faab1',
+    },
+    balanceSectionText: {
+        //  color: '#5faab1',
+        color: '#fff',
+
         borderWidth: 0,
         borderColor: 'transparent',
     },
+  
     accountBalanceText: {
         color: '#fff',
         borderColor: 'transparent',
@@ -270,7 +277,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         paddingVertical: 5,
     },
-    inputLabel: {},
 });
 
 export default Dashboard;
